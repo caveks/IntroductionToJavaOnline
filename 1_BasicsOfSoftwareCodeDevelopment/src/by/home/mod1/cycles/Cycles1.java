@@ -15,18 +15,9 @@ public class Cycles1 {
 		Scanner s = new Scanner(System.in);
 		System.out.println("Введите целое положительное число: ");
 		x = s.nextInt();
-<<<<<<< HEAD
 		s.close();
 		
 		
-=======
-<<<<<<< HEAD
-		s.close();
-		
-		
-=======
->>>>>>> branch 'master' of https://github.com/caveks/IntroductionToJavaOnline.git
->>>>>>> branch 'master' of https://github.com/caveks/IntroductionToJavaOnline.git
 
 	}
 
