@@ -9,12 +9,18 @@ import java.util.Scanner;
 public class Cycles1 {
 
 	public static void main(String[] args) {
-		
+
 		int x;
 		int y;
 		Scanner s = new Scanner(System.in);
 		System.out.println("Введите целое положительное число: ");
 		x = s.nextInt();
+<<<<<<< HEAD
+		s.close();
+		
+		
+=======
+>>>>>>> branch 'master' of https://github.com/caveks/IntroductionToJavaOnline.git
 
 		
 		
