@@ -13,7 +13,11 @@ public class Cycles1 {
 		int x;
 		int y;
 		Scanner s = new Scanner(System.in);
+<<<<<<< HEAD
+		System.out.println("Введите целое положительное число: ");
+=======
 		System.out.println();
+>>>>>>> branch 'master' of https://github.com/caveks/IntroductionToJavaOnline.git
 		
 
 	}
