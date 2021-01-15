@@ -9,15 +9,27 @@ import java.util.Scanner;
 public class Cycles1 {
 
 	public static void main(String[] args) {
-
+		
 		int x;
-		int y;
+		int y = 1;
 		Scanner s = new Scanner(System.in);
-		System.out.println("Введите целое положительное число: ");
+		System.out.print("Введите целое положительное число: ");
 		x = s.nextInt();
+		
+		if (x > 0) {
+			for (int i = 2; i < x; i++) {
+				y = y + i;
+			}
+		} else {
+			System.out.print("Вы ввели отрицательное число! Введите целое положительное число: ");
+			x = s.nextInt();
+			for (int i = 2; i < x; i++) {
+				y = y + i;
+			}
+		}
 		s.close();
 		
-		
+		System.out.println("Сумма чисел от 1 до введенного Вами числа равна " + y);		
 
 	}
 
