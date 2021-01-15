@@ -20,10 +20,14 @@ public class Cycles1 {
 		
 		
 =======
+<<<<<<< HEAD
+		s.close();
+		
+		
+=======
+>>>>>>> branch 'master' of https://github.com/caveks/IntroductionToJavaOnline.git
 >>>>>>> branch 'master' of https://github.com/caveks/IntroductionToJavaOnline.git
 
-		
-		
 	}
 
 }
