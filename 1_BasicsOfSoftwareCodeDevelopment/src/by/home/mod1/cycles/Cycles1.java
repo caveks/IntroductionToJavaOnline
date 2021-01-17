@@ -14,7 +14,7 @@ public class Cycles1 {
 		int y;
 		Scanner s = new Scanner(System.in);
 		System.out.println("Введите целое положительное число: ");
-		gghj
+		x = s.nextInt();
 		
 
 	}
