@@ -35,5 +35,5 @@ public class Cycles1 {
 		System.out.println("Сумма чисел от 1 до введенного Вами числа равна " + y);		
 
 	}
-
+	
 }
