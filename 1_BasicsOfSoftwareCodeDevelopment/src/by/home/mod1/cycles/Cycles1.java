@@ -8,39 +8,32 @@ import java.util.Scanner;
 public class Cycles1 {
 
 	public static void main(String[] args) {
-		
+
 		int x;
-		int y = 1;
+		int y = 0;
 		Scanner s = new Scanner(System.in);
 		System.out.print("Введите целое положительное число: ");
 		x = s.nextInt();
 
-		if (x > 0) {
-			for (int i = 2; i < x; i++) {
-				y = y + i;
+		do {
+			if (x == 0){
+				System.out.println("Вы ввели \"0\", \"0\" - не является ни положительным, ни отрицательным числом!");
+				System.out.print("Введите целое положительное число: ");
+				x = s.nextInt();
+			} else if (x < 0){
+				System.out.println("Вы ввели отрицательное число!");
+				System.out.print("Введите целое положительное число: ");
+				x = s.nextInt();
 			}
-		} else {
-			System.out.print("Вы ввели отрицательное число! Введите целое положительное число: ");
-			x = s.nextInt();
-			for (int i = 2; i < x; i++) {
-				y = y + i;
-			}
-		}
+		} while (x < 0 || x == 0);
 
-		if (x > 0) {
-			for (int i = 2; i < x; i++) {
-				y = y + i;
-			}
-		} else {
-			System.out.print("Вы ввели отрицательное число! Введите целое положительное число: ");
-			x = s.nextInt();
-			for (int i = 2; i < x; i++) {
-				y = y + i;
-			}
+		for (int i = 0; i < x; i++) {
+			y = y + i;
 		}
-		s.close();
 		
+		s.close();
 		System.out.println("Сумма чисел от 1 до введенного Вами числа равна " + y);		
+
 	}
 
 }
