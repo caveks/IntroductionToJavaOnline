@@ -9,25 +9,25 @@ public class Cycles1 {
 
 	public static void main(String[] args) {
 
-		int x;
-		int y = 0;
+		long x;
+		long y = 0;
 		Scanner s = new Scanner(System.in);
 		System.out.print("Введите целое положительное число: ");
-		x = s.nextInt();
+		x = s.nextLong();
 
 		do {
 			if (x == 0){
 				System.out.println("Вы ввели \"0\", \"0\" - не является ни положительным, ни отрицательным числом!");
 				System.out.print("Введите целое положительное число: ");
-				x = s.nextInt();
+				x = s.nextLong();
 			} else if (x < 0){
 				System.out.println("Вы ввели отрицательное число!");
 				System.out.print("Введите целое положительное число: ");
-				x = s.nextInt();
+				x = s.nextLong();
 			}
 		} while (x < 0 || x == 0);
 
-		for (int i = 0; i < x; i++) {
+		for (long i = 0; i < x; i++) {
 			y = y + i;
 		}
 		
