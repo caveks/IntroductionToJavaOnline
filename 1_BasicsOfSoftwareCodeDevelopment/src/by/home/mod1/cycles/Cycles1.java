@@ -31,6 +31,7 @@ public class Cycles1 {
 			y = y + i;
 		}
 		
+		
 		s.close();
 		System.out.println("Сумма чисел от 1 до введенного Вами числа равна " + y);		
 		
