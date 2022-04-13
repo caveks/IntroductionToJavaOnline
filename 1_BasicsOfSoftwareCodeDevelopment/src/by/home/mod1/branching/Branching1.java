@@ -20,9 +20,6 @@ public class Branching1 {
 		} else {
 			System.out.println("Такого треугольника не существует!");
 		}
-		
-		
-		System.out.println(-5 % 8 );
 	}
 	
 }
