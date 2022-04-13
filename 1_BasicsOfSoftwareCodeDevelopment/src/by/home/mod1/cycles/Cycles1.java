@@ -30,7 +30,7 @@ public class Cycles1 {
 		for (long i = 0; i < x; i++) {
 			y = y + i;
 		}
-		
+	 
 		s.close();
 		System.out.println("Сумма чисел от 1 до введенного Вами числа равна " + y);		
 		
