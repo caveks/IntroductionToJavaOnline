@@ -13,7 +13,8 @@ public class Cycles3 {
 			y = x * x + y;
 			x++;
 		}
-		System.out.println(y);
+		
+		System.out.println("Сумма квадратов первых ста чисел равна " + y);
 		
 	}
 	
