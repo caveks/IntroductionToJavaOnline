@@ -10,7 +10,7 @@ public class Cycles1 {
 	public static void main(String[] args) {
 
 		long x;
-		long y = 0;
+		long sum = 0;
 		Scanner s = new Scanner(System.in);
 		System.out.print("Введите целое положительное число: ");
 		x = s.nextLong();
@@ -28,11 +28,11 @@ public class Cycles1 {
 		} while (x < 0 || x == 0);
 
 		for (long i = 0; i < x; i++) {
-			y = y + i;
+			sum = sum + i;
 		}
 	 
 		s.close();
-		System.out.println("Сумма чисел от 1 до введенного Вами числа равна " + y);		
+		System.out.println("Сумма чисел от 1 до введенного Вами числа равна " + sum);		
 		
 	}
 
