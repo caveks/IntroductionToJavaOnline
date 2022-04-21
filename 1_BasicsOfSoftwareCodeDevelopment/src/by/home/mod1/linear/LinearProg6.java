@@ -21,7 +21,7 @@ public class LinearProg6 {
 		y = s.nextInt();
 		s.close();
 		
-		answer = ((x >= -2 && x <= 2) && (y >= 0 && y <= 4)) | ((x >= -4 && x <= 4) && (y >= -3 && y <= 0));
+		answer = ((x >= -2 && x <= 2) && (y >= 0 && y <= 4)) || ((x >= -4 && x <= 4) && (y >= -3 && y <= 0));
 		
 		System.out.println(answer);
 		
