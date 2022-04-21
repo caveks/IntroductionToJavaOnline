@@ -7,13 +7,14 @@ public class Cycles5 {
 	public static void main(String[] args) {
 
 		double e = 0.1;
-		double x;
+		int n = 5;
+		double an;
 		double sum = 0;
 
-		for (int i = -5; i <= 5; i++) {
-			x = 1 / Math.pow(2, i) + 1 / Math.pow(3, i);			
-				if (Math.abs(x) >= e) {
-					sum = sum + x;
+		for (int i = -5; i <= n; i++) {
+			an = 1 / Math.pow(2, i) + 1 / Math.pow(3, i);			
+				if (Math.abs(an) >= e) {
+					sum = sum + an;
 				}
 		}
 
