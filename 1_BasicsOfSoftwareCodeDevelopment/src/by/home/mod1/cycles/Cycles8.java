@@ -1,7 +1,5 @@
 package by.home.mod1.cycles;
 
-import java.util.Scanner;
-
 //Даны два числа. Определить цифры, входящие в запись как первого так и второго числа
 
 public class Cycles8 {
