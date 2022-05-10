@@ -1,4 +1,4 @@
-package by.home.mod1.cycles;
+package by.home.mod1.cycle;
 
 //Даны два числа. Определить цифры, входящие в запись как первого так и второго числа
 

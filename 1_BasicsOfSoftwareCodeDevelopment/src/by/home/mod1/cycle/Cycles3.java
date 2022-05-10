@@ -1,4 +1,4 @@
-package by.home.mod1.cycles;
+package by.home.mod1.cycle;
 
 //Найти сумму квадратов первых ста чисел
 
