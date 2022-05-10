@@ -2,7 +2,7 @@ package by.home.mod1.cycle;
 
 //Даны два числа. Определить цифры, входящие в запись как первого так и второго числа
 
-public class Cycles8 {
+public class Cycle8 {
 
 	public static void main(String[] args) {
 		

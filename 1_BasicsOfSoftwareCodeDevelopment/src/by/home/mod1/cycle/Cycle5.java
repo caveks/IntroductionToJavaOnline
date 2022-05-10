@@ -2,7 +2,7 @@ package by.home.mod1.cycle;
 
 //Даны числовой ряд и некоторое число e. Найти сумму тех членов ряда, модуль которых больше или равен заданному e.
 
-public class Cycles5 {
+public class Cycle5 {
 
 	public static void main(String[] args) {
 

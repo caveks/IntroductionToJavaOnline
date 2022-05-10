@@ -2,7 +2,7 @@ package by.home.mod1.cycle;
 
 //Найти сумму квадратов первых ста чисел
 
-public class Cycles3 {
+public class Cycle3 {
 	
 	public static void main(String[] args) {
 		

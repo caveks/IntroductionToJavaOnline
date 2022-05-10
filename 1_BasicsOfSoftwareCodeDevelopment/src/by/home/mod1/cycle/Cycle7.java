@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 //Для каждого натурального числа от m до n вывести все делители, кроме единицы и самого числа. m и n вводятся с клавиатуры
 
-public class Cycles7 {
+public class Cycle7 {
 
 	public static void main(String[] args) {
 

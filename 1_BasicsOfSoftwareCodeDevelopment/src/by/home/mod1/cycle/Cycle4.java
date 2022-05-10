@@ -4,7 +4,7 @@ import java.math.BigInteger;
 
 //Составить программу нахождения произведения квадратов первых двухсот чисел
 
-public class Cycles4 {
+public class Cycle4 {
 
 	public static void main(String[] args) {
 
