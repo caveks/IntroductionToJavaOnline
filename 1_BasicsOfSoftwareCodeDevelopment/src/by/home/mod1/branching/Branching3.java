@@ -15,6 +15,7 @@ public class Branching3 {
 		int x3;
 		int y3;
 		
+		@SuppressWarnings("resource")
 		Scanner s = new Scanner(System.in);
 		System.out.println("Введите координаты точки А: ");
 		System.out.print("x1 = ");
@@ -31,7 +32,6 @@ public class Branching3 {
 		x3 = s.nextInt();
 		System.out.print("y3 = ");
 		y3 = s.nextInt();
-		s.close();
 		
 		if((x3 - x1)/(x2 - x1) == (y3 - y1)/(y2 - y1)) {
 			System.out.println("Точки A, B, C расположены на одной прямой");

@@ -10,10 +10,10 @@ public class Branching5 {
 		
 		double x;
 		double y;
+		@SuppressWarnings("resource")
 		Scanner s = new Scanner(System.in);
 		System.out.print("Введите х: ");
 		x = s.nextDouble();
-		s.close();
 		
 		if (x <= 3) {
 			y = x * x - 3 * x + 9;
