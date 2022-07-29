@@ -44,7 +44,6 @@ public class Cycle7 {
 			System.out.println();
 		}
 
-		s.close();
 	}
 
 }

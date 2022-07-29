@@ -11,6 +11,7 @@ public class Cycle2 {
 		int a, b, h;
 		int x, y;
 
+		@SuppressWarnings("resource")
 		Scanner s = new Scanner(System.in);
 		System.out.println("Введите значения отрезка [a,b] и шаг h:");
 		System.out.print("Введите значение переменной a = ");
@@ -31,7 +32,6 @@ public class Cycle2 {
 			}	
 		}
 
-		s.close();
 	}
 
 }

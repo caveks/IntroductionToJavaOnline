@@ -11,6 +11,7 @@ public class Cycle1 {
 
 		long x;
 		long sum = 0;
+		@SuppressWarnings("resource")
 		Scanner s = new Scanner(System.in);
 		System.out.print("Введите целое положительное число: ");
 		x = s.nextLong();
@@ -31,7 +32,6 @@ public class Cycle1 {
 			sum = sum + i;
 		}
 	 
-		s.close();
 		System.out.println("Сумма чисел от 1 до введенного Вами числа равна " + sum);		
 		
 	}
