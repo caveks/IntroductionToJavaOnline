@@ -13,13 +13,13 @@ public class LinearProg6 {
 		int y;
 		boolean answer;
 		
+		@SuppressWarnings("resource")
 		Scanner s = new Scanner(System.in);
 		System.out.println("Введите координаты точки (x, y):");
 		System.out.print("x = ");
 		x = s.nextInt();
 		System.out.print("y = ");
 		y = s.nextInt();
-		s.close();
 		
 		answer = ((x >= -2 && x <= 2) && (y >= 0 && y <= 4)) || ((x >= -4 && x <= 4) && (y >= -3 && y <= 0));
 		

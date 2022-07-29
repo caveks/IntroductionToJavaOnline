@@ -13,6 +13,7 @@ public class LinearProg2 {
 		double c;
 		double x;
 		
+		@SuppressWarnings("resource")
 		Scanner s = new Scanner(System.in);
 		System.out.print("Введите a = ");
 		a = s.nextDouble();
@@ -20,7 +21,6 @@ public class LinearProg2 {
 		b = s.nextDouble();
 		System.out.print("Введите c = ");
 		c = s.nextDouble();
-		s.close();
 		
 		x = ((b + Math.sqrt(Math.pow(b, 2) + 4 * a * c)) / (2 * a)) - (Math.pow(a, 3) * 3) + Math.pow(b, -2);
 		System.out.println(x);
