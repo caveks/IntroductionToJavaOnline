@@ -8,7 +8,7 @@ public class SingleDemArray2 {
 		
 		int[] a = new int[10];
 		int z = 5;
-		
+		int chg = 0;
 		
 		
 		
